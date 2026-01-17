@@ -88,9 +88,11 @@ h1{
     border-radius: 25px; 
 }
 
+
 .footer-contenedor {
     width: 100%;
     margin-top: 0;
+    
 }
 .footer-blanco {
     background-color: white;
