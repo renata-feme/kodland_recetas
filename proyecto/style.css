@@ -1,0 +1,161 @@
+header{
+    height:100px;
+    justify-content: space-between;
+    display:flex;
+    background-color: #E43636;
+    position:sticky;
+    /*width:100%;*/
+    top:0;
+    margin: 0;
+    padding: 0 30px;
+
+}
+h1{
+    color:white;
+
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+.nav-bar {
+    list-style: none; 
+    display: flex; 
+    gap: 28px; 
+}
+.nav-bar a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+}
+.recetas-principales{
+    text-align: center;
+    padding-bottom: 80px;
+    width:auto;
+    padding: 40px 30px;
+}
+.titulo-seccion{
+    font-family: 'Georgia', serif; 
+    color: #333; 
+    font-size: 32px; 
+    margin-bottom: 40px;
+}
+.contenedor-recetas{
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+.receta-link img {
+    width:380px;    
+    height: auto;
+    display: block;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+.receta-link:hover { /*efecto*/
+    transform: scale(1.05); 
+}
+.seccion-articulos {
+    background-color: #F2B4B4;
+    padding: 50px 40px;
+    text-align: left; 
+}
+.seccion-articulos h2 {
+    font-family: 'Georgia', serif;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.fila-dos-columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.articulo-item { /*efecto*/
+    display: block;
+    transition: transform 0.3s ease;
+}
+.articulo-item:hover {
+    transform: translateY(-5px);
+}
+.articulo-item img {
+    height: auto;
+    display: block;
+    border-radius: 25px; 
+}
+
+.footer-contenedor {
+    width: 100%;
+    margin-top: 0;
+}
+.footer-blanco {
+    background-color: white;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.caja-info-marca {
+    max-width: 600px; 
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.caja-info-marca h3 {
+    color: #E43636; 
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.caja-info-marca p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+.footer-rojo {
+    background-color: #CC0000; 
+    color: white;
+    padding: 60px 50px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+.columna-footer {
+    width: 300px; 
+    text-align: left;
+}
+.columna-footer h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(255,255,255); 
+    padding-bottom: 10px;
+}
+.columna-footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.icono-red {
+    background-color: white;
+    color: #CC0000;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
