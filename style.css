@@ -215,3 +215,26 @@ h1{
     margin-bottom: 20px;
     font-size: 17px;
 }
+
+
+
+#clic-receta-pavo{
+    color:#E43636;
+}
+.contenido-lectura {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+}
+.contenido-lectura p {
+    margin-bottom: 25px;
+}
+.contenido-lectura h3 {
+    color: #E43636;
+    font-family: 'Georgia', serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
